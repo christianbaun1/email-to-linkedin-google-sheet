@@ -70,6 +70,9 @@ function findInfo() {
       var linkedInProfile = getLinkedInProfile(email);
       sheet.getRange(i + 1, 2).setValue(companyInfo);
       sheet.getRange(i + 1, 3).setValue(linkedInProfile);
+Replace YOUR_HUNTER_API_KEY and YOUR_CLEARBIT_API_KEY with your actual API keys from Hunter and Clearbit.
+
+Save your script and give it a name (e.g., EmailFinder).
     }
   }
 }
